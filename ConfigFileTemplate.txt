@@ -1,0 +1,167 @@
+{
+
+    "Settings": [
+        {
+            "Name": "BotName",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "MaxRetryNumber",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "BusinessEmail",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "ExceptionEmail",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "ExceptionScreenshotsFolder",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "MetricsPath",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "LogsFolder",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "LogsParentFolder",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "LogsTemplateFile",
+            "Value": ,
+            "Description":
+        },
+        {
+            "Name": "OutputFolder",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "WorkflowFolder",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "InputFolder",
+            "Value": ,
+            "Description": "InputFolder"
+        },
+        {
+            "Name": "ReRunMode",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "ReRunBackDate",
+            "Value":,
+            "Description":
+        },
+        {
+            "Name": "KeystoneURL",
+            "Value":,
+            "Description":
+        },
+
+    ],
+
+    "Constants": [
+        {
+            "Name": "MaxRetryNumber",
+            "Value":,
+            "Description": "Must be 0 if working with Orchestrator queues. If > 0, the robot will retry the same transaction which failed with a system exception. Must be an integer value."
+        },
+        {
+            "Name": "ExScreenshotsFolderPath",
+            "Value": "Exceptions_Screenshots",
+            "Description": "Where to save exceptions screenshots - can be a full or a relative path."
+        },
+        {
+            "Name": "LogMessage_GetTransactionData",
+            "Value":"Processing Transaction Number:",
+            "Description": "Static part of logging message. Calling Get Transaction Data."
+        },
+        {
+            "Name": "LogMessage_GetTransactionDataError",
+            "Value":"Error getting transaction data for Transaction Number:",
+            "Description": "Static part of logging message. Error retrieving Transaction Data."
+        },
+        {
+            "Name": "LogMessage_Success",
+            "Value":"Transaction Successful.",
+            "Description": "Static part of logging message. Processed Transaction succesful."
+        },
+        {
+            "Name": "LogMessage_BusinessRuleException",
+            "Value":"Business rule exception",
+            "Description": "Static part of logging message. Processed Transaction failed with business exception."
+        },
+        {
+            "Name": "LogMessage_ApplicationException",
+            "Value": "System exception",
+            "Description": "Static part of logging message. Processed Transaction failed with application exception"
+        },
+       
+    ],
+
+    "Assets": [
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+        {
+            "Name": "",
+            "Value":,
+            "Description": ,
+            "Orchestrator Asset Folder":
+        },
+       
+    ]
+
+}
