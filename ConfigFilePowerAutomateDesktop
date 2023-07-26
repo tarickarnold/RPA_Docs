@@ -1,0 +1,10 @@
+SET ProjectName TO $'''{ReplaceMe}'''
+SET ProjectDirectory TO $'''C:\\RPA\\%ProjectName%'''
+SET ConfigFile TO $'''%ProjectDirectory%\\Config\\Config.json'''
+File.ReadTextFromFile.ReadText File: ConfigFile Encoding: File.TextFileEncoding.UTF8 Content=> Config_Object
+Variables.ConvertJsonToCustomObject Json: Config_Object CustomObject=> Config_Object
+SET Config_RecipientObject TO Config_Object['Recipient']
+SET Config_LoggerObject TO Config_Object['Logger']
+SET Config_MaxErrorCountObject TO Config_Object['MaxErrorCount']
+SET Config_ScreenshotsPath TO Config_Object['ScreenshotsPath']
+SET Config_Environment TO Config_Object['Environment']
